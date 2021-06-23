@@ -1,2 +1,2 @@
-Source for jonable.com. Written with ReactJS
+Source for jonable.com. made with ReactJS
 
