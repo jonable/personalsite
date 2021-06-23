@@ -1,0 +1,469 @@
+body, html, #root{
+  height: 100% !important;
+}
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  /* font-family: 'Montserrat', sans-serif; */
+  padding-top: 54px;
+  color: #868e96;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    /* padding-left: 14rem; */
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  /* font-family: 'Montserrat', sans-serif; */
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #343a40;
+  color: #2b3a61;;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-right: .5rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+/* .social-icons a:hover {
+  background-color: #BD5D38;
+} */
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+
+#sideNav{
+  cursor: pointer;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 14rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.page--section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  
+}
+
+section.page--section .page--item .page--date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.page--section {
+    min-height: 100vh;
+  }
+  section.page--section .page--item .page--date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.page--section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #2C3A61 !important;
+}
+
+@supports ( -webkit-backdrop-filter: blur(1rem) ){
+  .bg-primary {
+    background-color: rgba(44, 58, 97, 0.54) !important;
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);  
+  }
+}
+.text-primary {
+  /* color: #BD5D38 !important; */
+  color: #2C3A61 !important;
+}
+
+a {
+  /* color: #BD5D38; */
+  color: #2C3A61;
+}
+
+a:hover, a:focus, a:active {
+   color: #3a74c0;
+  /* color: #824027; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* 
+Animations are running on page load (repaint or rerender is triggering? 
+It's annoying and transitions are quircky too but less quircky.
+
+*/
+
+.collapse:not(.show) {
+    display: none;
+}
+
+@media (min-width: 992px) {
+  body{
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+  }
+  .nav-open-btn{
+      display: flex;
+      margin-left:auto;
+      padding: 0.5rem;
+      position: absolute;
+      right: 0px;
+      background-color: rgba(255,255,255,.60);
+      width: 3rem;
+      height: 1rem;      
+  }  
+  #sideNav{
+    left: 0rem !important;
+    -webkit-transition: left .25s ease;
+    transition: left .25s ease;
+  }
+  #sideNav:not(.show){
+    left: -12.5rem !important;
+    -webkit-transition: left .25s ease;
+    transition: left .25s ease;
+  } 
+  #sideNav:not(.show):hover{
+    left: -11.5rem !important;
+    -webkit-transition: left .25s ease;
+    transition: left .25s ease;
+  }    
+}
+
+.listing li{
+    font-size: 15px;
+    list-style: none;
+    padding: 5px 3px;
+    margin: 0;
+    color: #272727;  
+    /* color: black; */
+    padding-bottom: 2px;
+    border-bottom: 1px dotted #ddd;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.listing h3{
+    display: inline-block;    
+    font-weight: 900;
+    border-left: 8px solid #93278c;
+    padding-left: 10px;
+    margin: 20px 0;
+}
+.listing span{
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    float: right;
+    color: #777777
+}
+ @media (min-width: 992px){
+  #sideNav .navbar-collapse .navbar-nav .nav-item{
+      padding-left:0.5rem !important;
+      padding-right:0.5rem !important;    
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+      padding-left:0rem !important;
+      padding-right:0rem !important;
+    }
+  }
+
+.color-yellow, .color-yellow-link:hover{
+  color:rgb(254, 222, 25);
+}
+.color-yellow-link:hover{
+  background-color:rgb(254, 222, 25);
+}
+.color-orange, .color-orange-link:hover{
+  color:rgb(243, 101, 35); 
+}
+.color-orange-link:hover{
+  background-color:rgb(243, 101, 35); 
+}
+.color-red, .color-red-link:hover{
+  color:rgb(210, 35, 52);
+}
+.color-red-link:hover{
+  background-color:rgb(210, 35, 52);
+}
+.color-purple, .color-purple-link:hover{
+  color:rgb(146, 39, 143);
+}
+.color-purple-link:hover{
+  background-color:rgb(146, 39, 143);
+}
+.color-blue, .color-blue-link:hover{
+  color:rgb(33, 64, 154);
+}
+.color-blue-link:hover{
+  background-color:rgb(33, 64, 154);
+}
+.border-yellow{
+  border-color: rgb(254, 222, 25) !important;
+}
+.border-purple{
+  border-color: rgb(146, 39, 143) !important;
+}
+.border-red{
+  border-color: rgb(210, 35, 52) !important;
+}
+@supports(-webkit-text-fill-color: transparent) or (text-fill-color:transparent){
+  /* https://codepen.io/shshaw/pen/YpERQQ */
+  .rainbow-text,
+  .rainbow-text-link:hover,
+  .rainbow-text-link-active{
+    background: linear-gradient(90deg, 
+    rgb(254, 222, 25), 
+    rgb(243, 101, 35), 
+    rgb(210, 35, 52),
+    rgb(146, 39, 143),
+    rgb(33, 64, 154),
+    rgb(146, 39, 143),
+    rgb(210, 35, 52),
+    rgb(243, 101, 35),
+    rgb(254, 222, 25));
+  }
+  .rainbow-text-link:hover,
+  .rainbow-text-link-active{
+    background: linear-gradient(90deg, 
+    rgb(254, 222, 25), 
+    rgb(243, 101, 35),
+    rgb(210, 35, 52),
+    rgb(146, 39, 143), 
+    rgb(210, 35, 52),
+    rgb(243, 101, 35),
+    rgb(254, 222, 25));
+  }
+
+  .rainbow-background-1, 
+  .rainbow-text-1, 
+  .rainbow-text-link-1:hover{
+    background: linear-gradient(90deg, 
+    rgb(254, 222, 25), 
+    rgb(243, 101, 35), 
+    rgb(210, 35, 52));
+  }
+
+  .rainbow-background-2, 
+  .rainbow-text-2, 
+  .rainbow-text-link-2:hover{
+    background: linear-gradient(90deg,   
+    rgb(146, 39, 143),
+    rgb(33, 64, 154),
+    rgb(146, 39, 143));
+  }
+
+
+  .rainbow-background-3, 
+  .rainbow-text-3, 
+  .rainbow-text-link-3:hover{
+    background: linear-gradient(90deg, 
+    rgb(210, 35, 52),
+    rgb(243, 101, 35),
+    rgb(254, 222, 25));
+  }
+
+  .rainbow-background-4{
+    background: linear-gradient(90deg,     
+    rgb(243, 101, 35), 
+    rgb(210, 35, 52),
+    rgb(146, 39, 143),
+    rgb(33, 64, 154));
+  }
+
+  .rainbow-text,
+  .rainbow-text-link:hover,
+  .rainbow-text-link-active,
+  .rainbow-text-1,
+  .rainbow-text-2,
+  .rainbow-text-3{
+    color: #000;
+    /* color: transparent; */
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    background-size: 200% auto;
+  }
+
+
+  .shine, .rainbow-text-link:hover{
+    animation: shine 2.5s linear infinite;
+  }
+  @keyframes shine {
+      from {
+        background-position: 200% center;
+      }
+  }
+
+  .card-body.rainbow-text-1{
+      border-image: linear-gradient(90deg,rgb(254, 222, 25), rgb(243, 101, 35),  rgb(210, 35, 52)) 1;
+  }
+  .card-body.rainbow-text-2{
+      border-image: linear-gradient(90deg, rgb(146, 39, 143),rgb(33, 64, 154)rgb(146, 39, 143)) 1;
+  }
+  .card-body.rainbow-text-3{
+      border-image: linear-gradient(90deg, rgb(210, 35, 52),rgb(243, 101, 35),rgb(254, 222, 25)) 1;
+  }
+
+  .card-body.rainbow-text-1, 
+  .card-body.rainbow-text-2, 
+  .card-body.rainbow-text-3{
+      border-top-width: 6px;
+      border-top-style: solid;
+      border-bottom-width: 0px;
+      border-left-width: 0px;
+      border-right-width: 0px;
+  }
+
+  .card.rainbow-background-1,
+  .card.rainbow-background-2,
+  .card.rainbow-background-3{
+    border: 1px solid white !important;
+  }
+
+  #gradient-horizontal {
+    --color-stop-1: rgb(33, 64, 154);
+    --color-stop-2: rgb(146, 39, 143);
+    --color-stop-3: rgb(210, 35, 52);    
+  }
+  #gradient-vertical {
+    --color-stop-1: #00c3ff;
+    --color-stop-2: #77e190;
+    --color-stop-3: #ffff1c;
+  }
+}
+
+@supports ( -moz-appearance:none ){
+
+}

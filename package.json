@@ -1,0 +1,25 @@
+{
+  "name": "jonable.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-google-photo": "^0.1.0",
+    "react-images": "^0.5.19",
+    "react-photo-gallery": "^6.2.1",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "startbootstrap-resume": "^5.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build_push": "react-scripts build && cp -a ./build/. ../build_repo/",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
